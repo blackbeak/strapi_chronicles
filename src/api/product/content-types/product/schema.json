@@ -1,0 +1,84 @@
+{
+  "kind": "collectionType",
+  "collectionName": "products",
+  "info": {
+    "singularName": "product",
+    "pluralName": "products",
+    "displayName": "Product",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "headline": {
+      "type": "string"
+    },
+    "shortDesc": {
+      "type": "text"
+    },
+    "longDesc": {
+      "type": "richtext"
+    },
+    "productImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "aboutImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "aboutDesc": {
+      "type": "text"
+    },
+    "guaranteeDesc": {
+      "type": "text"
+    },
+    "guaranteeImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "testimonials": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::testimonial.testimonial"
+    },
+    "slug": {
+      "type": "string"
+    },
+    "aboutHeadline": {
+      "type": "string"
+    },
+    "longDescHeadline": {
+      "type": "string"
+    },
+    "guaranteeHeadline": {
+      "type": "string"
+    },
+    "testimonialHeadline": {
+      "type": "string"
+    }
+  }
+}
