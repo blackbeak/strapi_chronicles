@@ -4,7 +4,8 @@
   "info": {
     "singularName": "index",
     "pluralName": "indices",
-    "displayName": "Index"
+    "displayName": "Index",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -23,14 +24,24 @@
       "type": "text"
     },
     "heroImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
+    },
+    "helpOne": {
+      "type": "richtext"
+    },
+    "helpTwo": {
+      "type": "richtext"
+    },
+    "helpThree": {
+      "type": "richtext"
     }
   }
 }
