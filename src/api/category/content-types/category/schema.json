@@ -26,6 +26,12 @@
     },
     "description": {
       "type": "text"
+    },
+    "chronicles": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::chronicle.chronicle",
+      "mappedBy": "category"
     }
   }
 }
