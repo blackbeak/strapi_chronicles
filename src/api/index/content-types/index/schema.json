@@ -42,6 +42,15 @@
     },
     "helpThree": {
       "type": "richtext"
+    },
+    "helpOneHeadline": {
+      "type": "string"
+    },
+    "helpTwoHeadline": {
+      "type": "string"
+    },
+    "helpThreeHeadline": {
+      "type": "string"
     }
   }
 }
