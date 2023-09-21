@@ -1,0 +1,39 @@
+{
+  "kind": "singleType",
+  "collectionName": "chronicle_indices",
+  "info": {
+    "singularName": "chronicle-index",
+    "pluralName": "chronicle-indices",
+    "displayName": "ChronicleIndex"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "headline": {
+      "type": "string"
+    },
+    "heroImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "shortDesc": {
+      "type": "string"
+    },
+    "longDesc": {
+      "type": "richtext"
+    },
+    "testimonials": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::testimonial.testimonial"
+    }
+  }
+}

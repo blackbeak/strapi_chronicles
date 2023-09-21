@@ -1,0 +1,31 @@
+{
+  "kind": "singleType",
+  "collectionName": "article_indices",
+  "info": {
+    "singularName": "article-index",
+    "pluralName": "article-indices",
+    "displayName": "ArticleIndex"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "headline": {
+      "type": "string"
+    },
+    "shortDesc": {
+      "type": "string"
+    },
+    "heroImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

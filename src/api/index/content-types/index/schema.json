@@ -51,6 +51,48 @@
     },
     "helpThreeHeadline": {
       "type": "string"
+    },
+    "iconOne": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "iconTwo": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "iconThree": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "helpWithHeadline": {
+      "type": "string"
+    },
+    "ctaOne": {
+      "type": "string"
+    },
+    "ctaTwo": {
+      "type": "string"
+    },
+    "ctaThree": {
+      "type": "string"
     }
   }
 }
