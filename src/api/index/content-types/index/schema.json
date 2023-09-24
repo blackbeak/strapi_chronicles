@@ -53,34 +53,37 @@
       "type": "string"
     },
     "iconOne": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "iconTwo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "iconThree": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "helpWithHeadline": {
       "type": "string"
@@ -93,6 +96,20 @@
     },
     "ctaThree": {
       "type": "string"
+    },
+    "moreHeadline": {
+      "type": "string"
+    },
+    "moreDescription": {
+      "type": "text"
+    },
+    "testimonialHeadline": {
+      "type": "string"
+    },
+    "testimonials": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::testimonial.testimonial"
     }
   }
 }
