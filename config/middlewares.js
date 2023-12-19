@@ -14,7 +14,14 @@ module.exports = [
       },
     },
   },
-  'strapi::cors',
+  {
+    name: 'strapi::cors',
+    config: {
+      enabled: true,
+      origin: ['*'], // Replace with your Angular app URL
+      // You can enable all origins with '*' (not recommended for production)
+    },
+  },
   'strapi::poweredBy',
   'strapi::logger',
   'strapi::query',
